@@ -1,4 +1,24 @@
 ---
 ---
 
+.icon-bar {
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.icon-bar img {
+    width: 35px;
+    height: 35px;;
+    opacity: 0.7;
+}
+
+.icon-bar img:hover {
+    opacity: 1;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
 @import "jekyll-theme-minimal";
