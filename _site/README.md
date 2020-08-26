@@ -1,3 +1,3 @@
-# Seidi's personal blog
+# Seidi's personal website
 
-Hi, this is [my personal blog](https://raseidi.github.io). and I'm going to share stuff.
+Hi, I am developing [a personal website](https://raseidi.github.io) where I intend to share my work and my personal interests.
