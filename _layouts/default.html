@@ -15,14 +15,13 @@
     <div class="wrapper">
       <header>
         <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
-        
         {% if site.logo %}
           <img class='avatar' src="{{site.logo | relative_url}}" alt="Avatar" />
         {% endif %}
 
         <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
-        <!-- {% if site.github.is_user_page %} -->
+        {% if site.github.is_user_page %}
         <div class='icon-bar'>
           <a href="https://scholar.google.com.br/citations?user=6QUE0LIAAAAJ&hl=pt-BR"><img src="/assets/img/icons/scholar.png"></a>
           <a href="https://github.com/raseidi/"><img src="/assets/img/icons/github.svg"></a>
@@ -30,15 +29,15 @@
           <a href="https://twitter.com/raseidi/"><img src="/assets/img/icons/twitter.svg"></a>
           <a href="/pages/contact.html"><img src="/assets/img/icons/gmail.svg"></a>
         </div>
-        <!-- {% endif %} -->
+        {% endif %}
 
-        {% if site.show_downloads %}
+        <!-- {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
-        {% endif %}
+        {% endif %} -->
       </header>
       <section>
 
