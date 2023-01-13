@@ -4,8 +4,4 @@ layout: post
 
 # Resume
 
-Click [here](#) for downloading in PDF format.
-
-ToDo
-
-[back](/)
+Click [here](../docs/academic_cv.pdf) to download my resume.
