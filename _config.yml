@@ -1,8 +1,15 @@
-title: Seidi's personal website
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Rafael S. Oyamada
 logo: /assets/img/self.jpeg
 description: Hi, welcome!
-show_downloads: false
-google_analytics: https://scholar.google.com.br/citations?user=6QUE0LIAAAAJ&hl=pt-BR
+show_downloads: true
+google_analytics: https://scholar.google.com/citations?user=6QUE0LIAAAAJ&hl
 theme: jekyll-theme-minimal
 author: Seidi
-github: [metadata]
+github: https://github.com/raseidi/
+twitter: https://twitter.com/raseidi/
+linkedin: https://www.linkedin.com/in/rafaelseidi/
+cv:
+  url: docs/academic_cv.pdf

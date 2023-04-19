@@ -178,9 +178,9 @@ img { max-width: 100%; }
 
 header { width: 270px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
 
-ul.downloads { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; width: 270px; }
+ul.downloads { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 2px solid #000000; width: 60%; margin: auto; }
 
-.downloads li { width: 89px; float: left; border-right: 1px solid #e0e0e0; height: 40px; }
+.downloads li { width: 89px; text-align: center; border-right: 1px solid #e0e0e0; height: 40px; }
 
 .downloads li:first-child a { border-radius: 5px 0 0 5px; }
 
@@ -194,7 +194,7 @@ ul.downloads { list-style: none; height: 40px; padding: 0; background: #f4f4f4; 
 
 strong { color: #222; font-weight: 700; }
 
-.downloads li + li + li { border-right: none; width: 89px; }
+.downloads li { border-right: none; width: 100%; }
 
 .downloads a strong { font-size: 14px; display: block; color: #222; }
 

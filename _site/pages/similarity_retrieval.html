@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Survey on graph databases for similarity-based retrieval | Rafael S. Oyamada</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Survey on graph databases for similarity-based retrieval" />
+<meta name="author" content="Seidi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hi, welcome!" />
+<meta property="og:description" content="Hi, welcome!" />
+<link rel="canonical" href="http://localhost:4000/pages/similarity_retrieval.html" />
+<meta property="og:url" content="http://localhost:4000/pages/similarity_retrieval.html" />
+<meta property="og:site_name" content="Rafael S. Oyamada" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Survey on graph databases for similarity-based retrieval" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@Seidi" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Seidi"},"description":"Hi, welcome!","headline":"Survey on graph databases for similarity-based retrieval","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/self.jpeg"},"name":"Seidi"},"url":"http://localhost:4000/pages/similarity_retrieval.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- <h1><a href="http://localhost:4000/">Rafael S. Oyamada</a></h1> -->
+        
+        <a href="http://localhost:4000/">
+          <img class='avatar' src="/assets/img/self.jpeg" alt="Avatar" />
+        </a>
+        
+
+        <!-- <p>Hi, welcome!</p> -->
+
+      <div class='icon-bar'>
+        <p class ="view">
+          <a href="https://github.com/raseidi/"><img class='avatar' src="/assets/img/icons/github.svg" alt="Avatar" /></a>
+          <a href="https://scholar.google.com/citations?user=6QUE0LIAAAAJ&hl"><img src="/assets/img/icons/scholar.png"></a>
+          <a href="https://www.linkedin.com/in/rafaelseidi/"><img src="/assets/img/icons/linkedin.svg"></a>
+          <a href="https://twitter.com/raseidi/"><img src="/assets/img/icons/twitter.svg"></a>
+          <a href="/pages/contact.html"><img src="/assets/img/icons/gmail.svg"></a>
+        </p>
+      </div>
+
+        
+        <ul class="downloads">
+          <li><a href="docs/academic_cv.pdf">Download <strong>Curriculum vitae</strong></a></li>
+        </ul>
+        
+      </header>
+      <section>
+
+      <small></small>
+
+<h1 id="survey-on-graph-databases-for-similarity-based-retrieval">Survey on graph databases for similarity-based retrieval</h1>
+
+<p>Graph methods have outperformed other ones (e.g. tree and hash methods) in the problem of similarity search in the past few years. However, there are many variations of graph methods in the literature, such as kNN-based or SW-based, and no work before had evaluated important issues regarding scalability and parametrization. Thus, we performed a survey to better understand the differences of behaviors among several algorithms accross several datasets.</p>
+
+<p><img src="/assets/img/posts/graph_database/survey.jpg" alt="Survey" /></p>
+
+<p>In this work, we evaluated the scalability regarding cardinality and dimensionality, query strategies (e.g. exact and approximate), trade-offs between construction and query parameters, and which properties in the datasets affect the most each algorithm and parameters.
+You can find the published research <a href="https://www.researchgate.net/publication/339488943_A_survey_on_graph-based_methods_for_similarity_searches_in_metric_spaces">here</a></p>
+
+<h1 id="automatic-selection-of-graph-algorithms-and-parameters">Automatic Selection of Graph Algorithms and Parameters</h1>
+
+<p>In our previous survey, we concluded that selecting the best graph algorithm is not a trivial task, since each graph configuration might behave differently according to the datasets’ characteristics. Thus, we developed a recommender system based on meta-learning to automatically select the best algorithm and its set of parameters (including both index and query parameters).</p>
+
+<p><img src="/assets/img/posts/graph_database/rec_sys.jpg" alt="AutoSelection" /></p>
+
+<p>We used meta-learning techniques to map several datasets’ characteristics into the performances achieved by different algorithm configurations. This way, when a new dataset is available, the recommender system is capable of analysing its underlying properties and automatically recommend a suitable algorithm configuration according to the user preferences. For instance, a user has may require a configuration that speeds up the queries without caring about the memory usage; or require the best precision possible with the lower query time possible.
+You can find the published research <a href="https://www.researchgate.net/publication/363636261_A_Meta-learning_Configuration_Framework_for_Graph-based_Similarity_Search_Indexes">here</a></p>
+
+<p><a href="/">back</a></p>
+
+
+
+
+
+
+    </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'https://scholar.google.com/citations?user=6QUE0LIAAAAJ&hl', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>
