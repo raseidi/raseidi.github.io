@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Survey and Benchmark on Trace Encoding Methods | Rafael S. Oyamada</title>
+<title>Rafael S. Oyamada | Hi, welcome!</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Survey and Benchmark on Trace Encoding Methods" />
+<meta property="og:title" content="Rafael S. Oyamada" />
 <meta name="author" content="Seidi" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Hi, welcome!" />
 <meta property="og:description" content="Hi, welcome!" />
-<link rel="canonical" href="http://localhost:4000/pages/encoding_pm.html" />
-<meta property="og:url" content="http://localhost:4000/pages/encoding_pm.html" />
+<link rel="canonical" href="http://localhost:4000/pages/generative_modeling.html" />
+<meta property="og:url" content="http://localhost:4000/pages/generative_modeling.html" />
 <meta property="og:site_name" content="Rafael S. Oyamada" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Survey and Benchmark on Trace Encoding Methods" />
+<meta property="twitter:title" content="Rafael S. Oyamada" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@Seidi" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Seidi"},"description":"Hi, welcome!","headline":"Survey and Benchmark on Trace Encoding Methods","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/self.jpeg"},"name":"Seidi"},"url":"http://localhost:4000/pages/encoding_pm.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Seidi"},"description":"Hi, welcome!","headline":"Rafael S. Oyamada","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/self.jpeg"},"name":"Seidi"},"url":"http://localhost:4000/pages/generative_modeling.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
@@ -62,18 +62,21 @@
 
       <small></small>
 
-<h1 id="survey-and-benchmark-on-trace-encoding-methods">Survey and Benchmark on Trace Encoding Methods</h1>
+<p>Since I am mostly interested on generative modeling, in this page I provide some toy examples of what I work with.</p>
 
-<p>In order to guide researchers and practitioners to choose the right algorithm according to their goals, we proposed new evaluation metrics and performed an extensive experimental evaluation to serve as a benchmark.
-The metrics cover what we believe is essential for encoding in PM: expressivity of the encoded data, scalability w.r.t. the event log cardinality, correlation between performances of the encoding algorithm performance and the PM task, and domain agnosticism regarding PM tasks.
-The benchmark focuses on the anomaly detection task and assesses 27 encoding methods through hundreds of event logs. We discuss future directions based on our findings. Therefore, we also expect the proposals and insights presented in our work can be leveraged for other PM tasks.</p>
+<h1 id="conditioned-generation">Conditioned generation</h1>
 
-<p><img src="/assets/img/posts/encoding/encoding.jpeg" alt="Encoding Survey" />
-<img src="/assets/img/posts/encoding/download.png" alt="Encoding Survey" /></p>
+<h3 id="teaching-generative-adversarial-networks-how-to-generate-even-or-odd-numbers">Teaching generative adversarial networks how to generate even or odd numbers</h3>
 
-<p>A preprint of the current research is available <a href="https://www.researchgate.net/publication/366902372_Trace_Encoding_in_Process_Mining_a_survey_and_benchmarking">here</a>.</p>
+<p>In this project, I designed a conditioned GAN architecture that learns how to generate even or odd numbers from the mnist dataset. See an example in the figure below. <a href="https://github.com/raseidi/gans">Repostiroy</a> for code.</p>
 
-<p><a href="/">back</a></p>
+<!-- ![Encoding Survey](/assets/img/posts/generative/even.png) -->
+<p>Odd                       |  Even
+:————————-:|:————————-:
+<img src="/assets/img/posts/generative/even.png" alt="" />  |  <img src="/assets/img/posts/generative/odd.png" alt="" /></p>
+<h3 id="conditioned-decoding-methods">Conditioned decoding methods</h3>
+
+<p>Still in development.</p>
 
 
 

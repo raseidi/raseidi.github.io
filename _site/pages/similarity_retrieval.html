@@ -64,21 +64,31 @@
 
 <h1 id="survey-on-graph-databases-for-similarity-based-retrieval">Survey on graph databases for similarity-based retrieval</h1>
 
-<p>Graph methods have outperformed other ones (e.g. tree and hash methods) in the problem of similarity search in the past few years. However, there are many variations of graph methods in the literature, such as kNN-based or SW-based, and no work before had evaluated important issues regarding scalability and parametrization. Thus, we performed a survey to better understand the differences of behaviors among several algorithms accross several datasets.</p>
+<p>In the past few years, <strong>graph databases</strong> have outperformed other ones (e.g. tree and hash methods) regarding the similarity search problem. However, there are many variations of graph methods in the literature, such as kNN-based or SW-based, and previously there was no work that had evaluated important issues regarding scalability and parametrization. Thus, we performed a survey to better understand the differences of behaviors among several algorithms accross several datasets.</p>
 
 <p><img src="/assets/img/posts/graph_database/survey.jpg" alt="Survey" /></p>
 
-<p>In this work, we evaluated the scalability regarding cardinality and dimensionality, query strategies (e.g. exact and approximate), trade-offs between construction and query parameters, and which properties in the datasets affect the most each algorithm and parameters.
-You can find the published research <a href="https://www.researchgate.net/publication/339488943_A_survey_on_graph-based_methods_for_similarity_searches_in_metric_spaces">here</a></p>
+<p>In this work, we addressed important points for understanding graph databases, such as:</p>
+<ul>
+  <li>the <strong>scalability</strong> regarding cardinality and dimensionality of datasets</li>
+  <li><strong>query strategies</strong> (e.g. exact and approximate)</li>
+  <li>trade-offs between the <strong>parameters</strong> for database construction (indexing) and querying</li>
+  <li>which <strong>properties</strong> in the datasets affect the most each algorithm and parameters.</li>
+</ul>
 
-<h1 id="automatic-selection-of-graph-algorithms-and-parameters">Automatic Selection of Graph Algorithms and Parameters</h1>
+<p>You can find the published research <a href="https://www.researchgate.net/publication/339488943_A_survey_on_graph-based_methods_for_similarity_searches_in_metric_spaces">here</a>.</p>
 
-<p>In our previous survey, we concluded that selecting the best graph algorithm is not a trivial task, since each graph configuration might behave differently according to the datasets’ characteristics. Thus, we developed a recommender system based on meta-learning to automatically select the best algorithm and its set of parameters (including both index and query parameters).</p>
+<h1 id="automated-selection-of-graph-algorithms-and-their-parameters">Automated Selection of Graph Algorithms and their Parameters</h1>
+
+<p>In our previous survey, we concluded that selecting the best graph algorithm is not a trivial task, since each graph configuration might behave differently according to the datasets’ characteristics. Thus, we developed a recommender system based on meta-learning to automatically select the best algorithm and its set of parameters (including both index and query parameters). Find below the proposed pipeline for instantiating the recommender system.</p>
 
 <p><img src="/assets/img/posts/graph_database/rec_sys.jpg" alt="AutoSelection" /></p>
 
-<p>We used meta-learning techniques to map several datasets’ characteristics into the performances achieved by different algorithm configurations. This way, when a new dataset is available, the recommender system is capable of analysing its underlying properties and automatically recommend a suitable algorithm configuration according to the user preferences. For instance, a user has may require a configuration that speeds up the queries without caring about the memory usage; or require the best precision possible with the lower query time possible.
-You can find the published research <a href="https://www.researchgate.net/publication/363636261_A_Meta-learning_Configuration_Framework_for_Graph-based_Similarity_Search_Indexes">here</a></p>
+<p><strong>Meta-learning</strong> is the machine learning paradigm that aims at learning how to learn. In this work, we used meta-learning techniques to map several datasets’ characteristics into the performances achieved by different algorithm configurations. This way, when a new dataset is available, the <strong>recommender system</strong> is capable of analysing its underlying properties and automatically recommend a suitable algorithm configuration according to the user preferences. For instance, a user has might require a configuration that speeds up the queries without caring about the memory usage; or require the best precision possible with the lower query time possible.
+You can find the published research <a href="https://www.researchgate.net/publication/363636261_A_Meta-learning_Configuration_Framework_for_Graph-based_Similarity_Search_Indexes">here</a>.</p>
+
+<p>During the development of this project, I developed a tool for characterizing different datasets. These characteristics are the so called meta-features, which meta-describe datasets. The repository for this tool can be found <a href="https://github.com/raseidi/annmf">here</a>.
+Furthermore, the whole pipeline for preprocessing the meta-features, performing a meta-training, and finally providing recommendations can be found <a href="https://bitbucket.org/raseidi/prox_graph_auto_config/src/master/">here</a>.</p>
 
 <p><a href="/">back</a></p>
 
