@@ -40,10 +40,12 @@ Rafael is a Ph.D. student in Computer Science at the University of Milan, in an 
 
 * [**CoSMo: a Framework for Implementing Conditioned Process Simulation Models**](https://www.researchgate.net/publication/369740247_CoSMo_a_Framework_for_Implementing_Conditioned_Process_Simulation_Models/stats). <u>RS Oyamada</u>, GM Tavares, P Ceravolo. Preprint available on arXiv: abs/2303.17879, 2023.
 
-<!-- ## Other
+* [**Empowering Predictive Process Monitoring through time-related Features**](.). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo.
 
+## Other
 
-* [**Book chapter**](.) to appear. -->
+<!-- * [**Book chapter**](.) to appear. -->
+* [**A Scikit-learn Extension Dedicated to Process Mining Purposes**](.) (DEMO Paper). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo. *International Conference on Cooperative Information Systems (CoopIS), Demo track, 2023 (to appear).*
 
 
 ---
