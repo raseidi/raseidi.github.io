@@ -45,7 +45,7 @@ Rafael is a Ph.D. student in Computer Science at the University of Milan, in an 
 ## Other
 
 <!-- * [**Book chapter**](.) to appear. -->
-* [**A Scikit-learn Extension Dedicated to Process Mining Purposes**]([.](https://ceur-ws.org/Vol-3552/paper-3.pdf)) (DEMO Paper). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo. *International Conference on Cooperative Information Systems (CoopIS), 2023.*
+* [**A Scikit-learn Extension Dedicated to Process Mining Purposes**](https://ceur-ws.org/Vol-3552/paper-3.pdf) (DEMO Paper). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo. *International Conference on Cooperative Information Systems (CoopIS), 2023.*
 
 
 ---
