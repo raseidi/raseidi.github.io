@@ -10,7 +10,7 @@ Rafael is a Ph.D. student in Computer Science at the University of Milan, in an 
 
 # Projects
 
-[Scikit-learn for Process Data](.) (under dev)
+[Scikit-learn for Process Data]([.](https://github.com/raseidi/skpm)) (under dev)
 
 [Conditioned Business Process Simulation](./pages/cosmo.html)
 
@@ -32,20 +32,20 @@ Rafael is a Ph.D. student in Computer Science at the University of Milan, in an 
 
 ## Conferences
 
-* [**Usage of Datasets for Evaluation in Similarity Retrieval: Popular Choices and a New Similarity-based Dataset Selection Approach**](.). M Matiazzo, V Castro-Silva, <u>RS Oyamada</u> and DS Kaster. *Similarity Search and Applications (SISAP), 2023 (to appear)*.
+* [**Usage of Datasets for Evaluation in Similarity Retrieval: Popular Choices and a New Similarity-based Dataset Selection Approach**](https://link.springer.com/chapter/10.1007/978-3-031-46994-7_11). M Matiazzo, V Castro-Silva, <u>RS Oyamada</u> and DS Kaster. *Similarity Search and Applications (SISAP), 2023*.
 
 * [**Towards Proximity Graph Auto-Configuration: an Approach Based on Meta-learning.**](https://link.springer.com/chapter/10.1007/978-3-030-54832-2_9) <u>RS Oyamada</u>, LC Shimomura, S Barbon Jr., DS Kaster. *European Conference on Advances in Databases and Information Systems (ADBIS), 2020.*
 
 ## Preprints
 
-* [**CoSMo: a Framework for Implementing Conditioned Process Simulation Models**](https://www.researchgate.net/publication/369740247_CoSMo_a_Framework_for_Implementing_Conditioned_Process_Simulation_Models/stats). <u>RS Oyamada</u>, GM Tavares, P Ceravolo. Preprint available on arXiv: abs/2303.17879, 2023.
+* [**CoSMo: a Framework for Implementing Conditioned Process Simulation Models**](https://arxiv.org/abs/2303.17879). <u>RS Oyamada</u>, GM Tavares, P Ceravolo. Preprint available on arXiv: abs/2303.17879, 2023.
 
 * [**Empowering Predictive Process Monitoring through time-related Features**](.). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo.
 
 ## Other
 
 <!-- * [**Book chapter**](.) to appear. -->
-* [**A Scikit-learn Extension Dedicated to Process Mining Purposes**](.) (DEMO Paper). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo. *International Conference on Cooperative Information Systems (CoopIS), Demo track, 2023 (to appear).*
+* [**A Scikit-learn Extension Dedicated to Process Mining Purposes**]([.](https://ceur-ws.org/Vol-3552/paper-3.pdf)) (DEMO Paper). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo. *International Conference on Cooperative Information Systems (CoopIS), 2023.*
 
 
 ---
