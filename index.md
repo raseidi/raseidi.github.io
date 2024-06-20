@@ -32,15 +32,14 @@ Rafael is a Ph.D. student in Computer Science at the University of Milan, in an 
 
 ## Conferences
 
+* [**CoSMo: a Framework for Implementing Conditioned Process Simulation Models**](https://arxiv.org/abs/2303.17879). <u>RS Oyamada</u>, GM Tavares, P Ceravolo. Preprint available on arXiv: abs/2303.17879, 2024 (to appear on BPM'24).
+
+* [**Enhancing Predictive Process Monitoring with Time-related Feature Engineering**]([.](https://link.springer.com/chapter/10.1007/978-3-031-61057-8_5)). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo. *International Conference on Advanced Information Systems Engineering (CAiSE), 2024*.
+
 * [**Usage of Datasets for Evaluation in Similarity Retrieval: Popular Choices and a New Similarity-based Dataset Selection Approach**](https://link.springer.com/chapter/10.1007/978-3-031-46994-7_11). M Matiazzo, V Castro-Silva, <u>RS Oyamada</u> and DS Kaster. *Similarity Search and Applications (SISAP), 2023*.
 
 * [**Towards Proximity Graph Auto-Configuration: an Approach Based on Meta-learning.**](https://link.springer.com/chapter/10.1007/978-3-030-54832-2_9) <u>RS Oyamada</u>, LC Shimomura, S Barbon Jr., DS Kaster. *European Conference on Advances in Databases and Information Systems (ADBIS), 2020.*
 
-## Preprints
-
-* [**CoSMo: a Framework for Implementing Conditioned Process Simulation Models**](https://arxiv.org/abs/2303.17879). <u>RS Oyamada</u>, GM Tavares, P Ceravolo. Preprint available on arXiv: abs/2303.17879, 2023.
-
-* [**Empowering Predictive Process Monitoring through time-related Features**](.). <u>RS Oyamada</u>, GM Tavares, S Barbon Jr., P Ceravolo.
 
 ## Other
 
